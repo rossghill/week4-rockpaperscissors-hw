@@ -27,16 +27,4 @@ class Game
 
   end
 
-
-  # def rock_vs
-  #
-  # end
-  #
-  # def paper_vs
-  #
-  # end
-  #
-  # def scissors_vs
-  #
-  # end
 end
