@@ -1,19 +1,30 @@
 class Game
 
-  def initialize(rock, paper, scissors)
-    @rock = rock
-    @paper = paper
-    @scissors = scissors
+  def initialize(weapon1, weapon2)
+    @weapon1 = weapon1
+    @weapon2 = weapon2
   end
 
-  def rock_vs
-
+  def game()
+    if @weapon1 == @weapon2
+      return "Stalemate."
+    end
   end
 
-  def paper_vs
-
+  def add
+    return @weapon1 + @weapon2
   end
 
-  def scissors_vs
 
-  end
+  # def rock_vs
+  #
+  # end
+  #
+  # def paper_vs
+  #
+  # end
+  #
+  # def scissors_vs
+  #
+  # end
+end
